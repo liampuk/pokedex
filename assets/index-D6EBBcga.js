@@ -152,7 +152,7 @@ Please change the parent <Route path="${L}"> to <Route path="${L==="/"?"*":`${L}
   overflow: hidden;
   white-space: nowrap;
   display: block;
-`,aR=({name:n,isTableLoading:i})=>{const{isFetching:r,data:s}=Dp(n),o=ai(),f=s??{name:"-",id:"-",types:[{type:{name:"-"}}]};return ee.jsxs(Cp,{onClick:()=>o(`/pokemon/${s?.name}`),children:[ee.jsx($l,{children:i||r?ee.jsx(Bo,{}):f?.id}),ee.jsx($l,{children:i||r?ee.jsx(Bo,{}):f?.name}),ee.jsx($l,{children:i||r?ee.jsx(Bo,{}):xp(f?.types)})]})},Bo=()=>ee.jsx(nR,{}),nR=$e.div`
+`,aR=({name:n,isTableLoading:i})=>{const{isFetching:r,data:s}=Dp(n),o=ai(),f=s??{name:"-",id:"-",types:[{type:{name:"-"}}]};return ee.jsxs(Cp,{onClick:()=>o(`/pokedex/pokemon/${s?.name}`),children:[ee.jsx($l,{children:i||r?ee.jsx(Bo,{}):f?.id}),ee.jsx($l,{children:i||r?ee.jsx(Bo,{}):f?.name}),ee.jsx($l,{children:i||r?ee.jsx(Bo,{}):xp(f?.types)})]})},Bo=()=>ee.jsx(nR,{}),nR=$e.div`
   width: 80px;
   height: 17px;
   background-color: #eee;
