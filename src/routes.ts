@@ -8,7 +8,7 @@ import { Pokemon } from "./components/pokemon/Pokemon"
 
 export const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/pokedex",
     Component: Root,
     children: [
       { index: true, Component: Home },

@@ -21,7 +21,7 @@ export const PokemonRow = ({
   }
 
   return (
-    <TableRow onClick={() => navigate(`/pokemon/${data?.name}`)}>
+    <TableRow onClick={() => navigate(`/pokedex/pokemon/${data?.name}`)}>
       <TableCell>
         {isTableLoading || isFetching ? <Skeleton /> : tableData?.id}
       </TableCell>

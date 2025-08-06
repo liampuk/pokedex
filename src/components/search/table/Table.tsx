@@ -3,7 +3,6 @@ import { usePokemon } from "../../../api/hooks"
 import { PokemonRow } from "./PokemonRow"
 import { TableCell, TableRow } from "./common"
 import { Pagination } from "./Pagination"
-import { useState } from "react"
 import { useSearchParams } from "react-router"
 
 const PAGE_SIZE = 10
