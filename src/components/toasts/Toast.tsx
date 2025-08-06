@@ -18,7 +18,7 @@ export const Toast = ({ id, alert }: { id: string; alert: string }) => {
 }
 
 const Container = styled.div`
-  background-color: #f9f1dc;
+  background-color: #eee;
   border: 1px solid #ddd;
   border-radius: 8px;
   padding: 16px;

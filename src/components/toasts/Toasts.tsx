@@ -18,6 +18,9 @@ export const Toasts = () => {
 
 const ToastWrapper = styled.div`
   position: fixed;
+  left: 0;
+  right: 0;
   bottom: 32px;
-  right: 32px;
+  margin-inline: auto;
+  width: fit-content;
 `
